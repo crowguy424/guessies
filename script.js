@@ -55,7 +55,7 @@ function play(){
         else if(user_guess == answer){
             msg1.textContent = "Hurray you win!!!!";
             msg2.textContent = "The number was: " + no_of_guesses;
-            msg3.textContent = "You guessed it in " + no_of_guesses + " guesses";
+            msg4.textContent = "You guessed it in " + no_of_guesses + " guesses";
             document.getElementById("my_btn").disabled = true;
         }
         
